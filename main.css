@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav__br{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav__left{
+    align-items: center;
+    display: flex;
+    gap: 6px;
+}
+
+.nav__right {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+
+.nav__link {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15.13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000;
+}
+
+.geo {
+    background-color: #FC004A;
+    border-radius: 12px;
+    display: flex;
+    gap: 12px;
+    color: white;
+    padding: 6px 41px;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+}
+
+.nav__right{
+    gap: 8px;
+
+}
+
+hr{
+    color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+}
+
+
+.tam__bg{
+    width: 976px;
+height: 293.6600036621094px;
+top: 134px;
+left: 24px;
+border-radius: 15px;
+margin-top: 8.1rem;
+}
+
+h3{
+    font-family: Inter;
+font-weight: 400;
+font-size: 32.48px;
+line-height: 40px;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-top: 64px;
+}
+
+.card{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px;
+box-shadow: 0px 10px 15px -3px ;
+margin-top: 4.4rem;
+}
+
+.p{
+    font-family: Inter;
+font-weight: 500;
+font-size: 18.28px;
+line-height: 28px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #FC004A;
+margin-top: 8px;
+}
+
+.cards__burger{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: transparent;
+}
+
+.img__btn{
+    margin-left: 183px;
+    margin-top: 12px;
+}
+
+@media (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .geo {
+        padding: 5px 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu {
+        display: flex;
+    }
+
+    .nav__right {
+        display: none;
+    }
+
+    .geo {
+        padding: 6px 40px;
+    }
+}
+@media (max-width: 598px;) {
+    .parent{
+        display: none;
+
+    }
+}
+ 
+@media (max-width: 808px){
+    .cards__burger{
+        display: flex;
+        justify-content: center;
+    }
+}
